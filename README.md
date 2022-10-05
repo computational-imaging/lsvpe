@@ -1,15 +1,23 @@
 # Learning spatially varying pixel exposures for motion deblurring
-[Project Page](www.computationalimaging.org/) |
-[Paper](www.computationalimaging.org/) |
-[Arxiv](www.computationalimaging.org/)
+[Project Page](https://ccnguyen.github.io/lsvpe/) |
+[Paper](https://arxiv.org/pdf/2204.07267.pdf) |
+[Arxiv](https://arxiv.org/abs/2204.07267)
 
 > Learning Spatially Varying Pixel Exspoures for Motion Deblurring
 > [Cindy M. Nguyen](https://ccnguyen.github.io/), [Julien N.P. Martel](https://twitter.com/jnpmartel), [Gordon Wetzstein](https://stanford.edu/~gordonwz/)
-> Under review - 2022
+> ICCP 2022
 
 If you find this work useful, please consider citing us!
 ```python
-TBD
+@INPROCEEDINGS{9887786,
+  author={Nguyen, Cindy M. and Martel, Julien N. P. and Wetzstein, Gordon},
+  booktitle={2022 IEEE International Conference on Computational Photography (ICCP)}, 
+  title={Learning Spatially Varying Pixel Exposures for Motion Deblurring}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={1-11},
+  doi={10.1109/ICCP54855.2022.9887786}}
 ```
 
 ## Abstract
@@ -63,5 +71,22 @@ Run `python test.py` to test all models
             1. individual experiment
 
 ## References
-1. Zhang et al. - DnCNN
-2. Zamir et al. - MPRNet
+```
+@article{zhang2017beyond,
+  title={Beyond a gaussian denoiser: Residual learning of deep cnn for image denoising},
+  author={Zhang, Kai and Zuo, Wangmeng and Chen, Yunjin and Meng, Deyu and Zhang, Lei},
+  journal={IEEE transactions on image processing},
+  volume={26},
+  number={7},
+  pages={3142--3155},
+  year={2017},
+  publisher={IEEE}
+}
+@inproceedings{zamir2021multi,
+  title={Multi-stage progressive image restoration},
+  author={Zamir, Syed Waqas and Arora, Aditya and Khan, Salman and Hayat, Munawar and Khan, Fahad Shahbaz and Yang, Ming-Hsuan and Shao, Ling},
+  booktitle={Proceedings of the IEEE/CVF conference on computer vision and pattern recognition},
+  pages={14821--14831},
+  year={2021}
+}
+```
