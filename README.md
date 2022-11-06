@@ -42,7 +42,7 @@ The data is processed into a `.pt` file that is a dictionary in which each key i
 and each value is a dictionary where the key is the ID of the clip generated and the value is the video.
 
 #### 3) Train a model
-To run a pretrained model, download the [model checkpoints](https://drive.google.com/drive/folders/1LWROt3RXNZom_8pBuYy_WkIyZTYCcJsp)
+To run a pretrained model, download the [model checkpoints](https://drive.google.com/drive/folders/1G1dD-_2KX_qvFiAZLOloJ8CNT9y5fJDI?usp=sharing)
 and place the folder in `logs`. Then use the following code examples to continue training a model:
 ```
 python train.py --shutter=short --interp=none --resume=21-10-31 --exp_name=short
